@@ -1,0 +1,31 @@
+<html>
+  <head>
+     <title>
+         article two| sai rohith
+     </title>
+     <meta name="viewport" context="width=device-width,inital-scale=1"/>
+  </head>  
+  <body>
+      <div>
+          <a href="/">Home</a>
+      </div>
+      <h>
+          article two
+      </h>
+      <div>
+          sept 21,2016
+      </div>
+      <div>
+         
+          <p>
+              this is my second webpage.my name is sairohith.just started learning the things
+          </p>  
+          <p>
+              this is my second webpage.my name is sairohith.just started learning the things
+          </p>     
+          <p>
+              this is my second webpage.my name is sairohith.just started learning the things
+          </p>     
+      </div>      
+  </body>
+</html>
