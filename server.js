@@ -65,10 +65,10 @@ app.get('/', function (req, res) {
 app.get('/article-one',function(req, res) {
   res.send(createtemplete(articleone));
 });
-counter=0;
+ var counter=0;
 app.get('/counter',function(req, res) {
     counter=counter+1;
-  res.send('counter.tostring()');
+  res.send(counter.toString());
 });
 
 app.get('/article-two',function(req, res) {
