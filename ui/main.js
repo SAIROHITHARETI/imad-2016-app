@@ -13,7 +13,7 @@ button.onclick=function(){
         }
       }    
     };
- request.open('GET','sairohithareti.imad.hasura-app.io',true);
+ request.open('GET','http://sairohithareti.imad.hasura-app.io',true);
  request.send(null);
     
 };  
