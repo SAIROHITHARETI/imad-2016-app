@@ -92,7 +92,7 @@ app.post('/create-user',function(req,res){
    
    var salt=crypto.randomBytes(128).toString('hex');
    var dbString=hash(password,salt); 
-   pool.query('INSERT INTO "user1"(name,password) VALUES($1,$2)',[name,password],function(req,res){
+   pool.query('INSERT INTO "user1" (name,password) VALUES($1,$2)',[name,dbString],function(req,res){
         if(err){
         res.status(500).send(err.toString());
         }
@@ -102,23 +102,7 @@ app.post('/create-user',function(req,res){
        
    });
 });
-app.post('/login',function(req,res){
-     var name=req.body.name;
-    var password=req.body.password;
-   
-   
-   
-   pool.query('SELECT * FROM "user1" name=$1'[name],function(req,res){
-        if(err){
-        res.status(500).send(err.toString());
-        }
-        else{ 
-            res.send('user successfully created:'+name);
-        }
-       
-   });
-    
-});
+
 
 
 
