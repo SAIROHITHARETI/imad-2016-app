@@ -33,7 +33,7 @@ submit.onclick=function(){
     ul.innerHTML=list;
     
 };
-var button=document.getElementById('submit_btn1');
+var button=document.getElementById('submit_btnn');
 button.onclick=function(){
     var request=new XMLHttpRequest();
     request.onreadystatechange =function(){
@@ -51,13 +51,13 @@ button.onclick=function(){
         }
       }    
     };
-    var username=getElementById('name1').value;
+    var name=getElementById('username').value;
     var password=getElementById('password').value;
     console.log(username);
     console.log(password);
     var nameInput=nameInput.value;
      request.open('POST','http://sairohithareti.imad.hasura-app.io/login',true);
      request.setRequestHeader('Content-Type','application/json');
-     request.send(JSON.stringify({name:username ,password:password}));
+     request.send(JSON.stringify({name:name ,password:password}));
     
 };  
