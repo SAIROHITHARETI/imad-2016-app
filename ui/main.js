@@ -51,8 +51,9 @@ button.onclick=function(){
         }
       }    
     };
-    var name= getElementById('username').value;
+   
     var password= getElementById('password').value;
+     var name= getElementById('username').value;
     console.log(username);
     console.log(password);
     var nameInput=nameInput.value;
