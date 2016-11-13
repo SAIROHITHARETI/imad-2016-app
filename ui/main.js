@@ -52,8 +52,8 @@ button.onclick=function(){
       }    
     };
    
-    var password= getElementById('password').value;
-     var name= getElementById('username').value;
+    var password= document.getElementById('password').value;
+     var name=document. getElementById('username').value;
     console.log(name);
     console.log(password);
     var nameInput=nameInput.value;
