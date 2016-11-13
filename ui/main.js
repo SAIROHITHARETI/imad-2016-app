@@ -54,7 +54,7 @@ button.onclick=function(){
    
     var password= getElementById('password').value;
      var name= getElementById('username').value;
-    console.log(username);
+    console.log(name);
     console.log(password);
     var nameInput=nameInput.value;
      request.open('POST','http://sairohithareti.imad.hasura-app.io/login',true);
