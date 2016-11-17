@@ -22,20 +22,10 @@ body {
     
 }
 
-.container{
-               max-width: 800px;
-               
-               color: #ce1111;
-               font-family: sans-serif;
-        
-               padding-top: 60px;
-               padding-bottom: 98px;
-             
-               margin: auto;
-         }
+
 div{
     background-image:url("http://uploads.strikinglycdn.com/static/backgrounds/business-2/145.jpg");
-    background-position: 20px 100px;
+    background-position: 100% 100%;
     background-repeat: no-repeat;
          
 }
