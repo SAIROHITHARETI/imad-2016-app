@@ -1,17 +1,20 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-   
-}
-
-
-    
-
-
-
-div{
-    background-image:url("http://uploads.strikinglycdn.com/static/backgrounds/business-2/145.jpg");
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
+:before,
+:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
          
 }
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+                 
+                  
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+
+                  
