@@ -34,7 +34,7 @@ submit.onclick=function(){
     
 };
 var button=document.getElementById('submit_btnn');
-button.onclick=function(){
+ button.onclick=function(){
     var request=new XMLHttpRequest();
     request.onreadystatechange =function(){
         if(request.readyState===XMLHttpRequest.DONE)
