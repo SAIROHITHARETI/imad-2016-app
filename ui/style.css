@@ -15,6 +15,7 @@
                   
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
+  
 }
 
 .group:before,
@@ -63,6 +64,46 @@ primary-footer {
 .container {
   padding-left: 30px;
   padding-right: 30px;
+}
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4 {
+  color: #648880;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+}
+.logo {
+  border-top: 4px solid #648880;
+  float: left;
+  font-size: 48px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+}
+.tagline {
+  margin: 66px 0 22px 0;
+}
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 
