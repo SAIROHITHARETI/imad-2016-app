@@ -109,7 +109,7 @@ app.post('/login',function(req,res){
    
    
    
-   pool.query('SELECT * FROM "user1" WHERE name=$1' [name],function(req,res){
+   pool.query('SELECT * FROM "user1" WHERE name=$1' [name],function(err,result){
         if(err){
         res.status(500).send(err.toString());
         }
@@ -120,7 +120,7 @@ app.post('/login',function(req,res){
                 var dbString=result.rows[0].password;
                 var salt= dbString.split('$')[2];
                 var hashedPassword=hash(password,salt);
-                if(hasedPassword===dbString){
+                if(hashedPassword===dbString){
                     res.send('credentials are correct!');
                 }
                 else{
