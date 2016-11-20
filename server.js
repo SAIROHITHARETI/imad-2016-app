@@ -109,7 +109,7 @@ app.post('/login',function(req,res){
    
    
    
-   pool.query('SELECT * FROM "user1" WHERE name=$1' [name],function(err,result){
+   pool.query('SELECT * FROM "user1" WHERE name=$1' ,[name],function(err,result){
         if(err){
         res.status(500).send(err.toString());
         }
