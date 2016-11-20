@@ -53,7 +53,7 @@ button.onclick=function(){
     };
    
     var password= document.getElementById('password').value;
-     var name=document. getElementById('username').value;
+     var name=document. getElementById('name').value;
     console.log(name);
     console.log(password);
    
